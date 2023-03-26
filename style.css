@@ -1,0 +1,59 @@
+#header {
+    background-color: pink;
+    color: white;
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#container {
+    background-color: whitesmoke;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content{
+    padding: 10px;
+}
+
+#nav{
+    width: 150px;
+    float: left;
+}
+
+#main{
+    width: 500px;
+    float: right;
+    padding-bottom: 30px;
+}
+
+#footer{
+    clear: both;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 10px;
+}
+
+#nav .active{
+    color: purple;
+    font-weight: bold;
+}
+
+#nav .notactive{
+    color: brown;
+}
+
+a{
+    text-decoration: none;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0px;
+}

@@ -1,0 +1,67 @@
+body{
+    background-color: #282828;
+}
+
+#nav .active{
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#nav .notactive{
+    color: white;
+    text-decoration: none;
+}
+
+#nav ul{
+    list-style-type: none;
+    columns: 5;
+    text-align: center;
+}
+
+#main{
+    color: #FAD300;
+    text-align: center;
+}
+
+#main p{
+    color: white;
+    opacity: 80%;
+}
+
+#gallery{
+    background-color: gray;
+    columns: 3;
+    padding-bottom: 45px;
+}
+
+#first{
+    text-align: center;
+    color: white;
+}
+
+#second{
+    text-align: center;
+    color: white;
+    padding: 2px;
+}
+
+#third{
+    text-align: center;
+    color: white;
+    padding: 2px;
+}
+
+#footer{
+    background-color: black;
+    padding-bottom: 10px;
+    padding-block-start: 30px;
+    color: white;
+    text-align: center;
+}
+
+a{
+    padding: 10px;
+    padding-top: 10px;
+    color: white;
+}
